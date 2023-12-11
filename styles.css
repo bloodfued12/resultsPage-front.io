@@ -1,0 +1,51 @@
+/* Creates the basic measurments for the widget */
+#results-widget{
+    width: 660px;
+    height: 350px;
+    text-align: center;
+}
+
+.result{
+width: 300px;
+height: 350px;
+background: linear-gradient(#6642FE,#503AF7,#362CED);
+display: inline-block;
+margin: 0;
+padding: 0;
+border-radius: 7%;
+}
+.summary{
+width: 300px;
+height: 350px;
+display: inline-block;
+margin: 0;
+padding: 0;
+}
+.gray{
+    color: gray;
+}
+.white{
+    color: white;
+}
+.drkblue{
+    color:#363B58;
+}
+#score{
+    font-weight: bold;
+}
+.result-wrapper{
+    padding: 25%;
+}
+.out-of{
+    text-wrap: none;
+}
+.circle-wrapper{
+    width: 119px;
+    height: 100px;
+    background: linear-gradient(#4827D0, #503AF7);
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    top: 2.5%;
+    margin: auto;
+}
